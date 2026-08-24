@@ -6,6 +6,7 @@ public class Prob2 {
 		int counter = 0;
 		for(int i = 0; i < str.length(); i++) {
 			str = str.toUpperCase();
+			//this code doesn't work, I think I messed up the syntax, but I think the logic works.
 			if( str.charAt(i)="a" ) {
 				counter++;
 			}else if( str.charAt(i)="e" ) {
